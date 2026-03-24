@@ -31,8 +31,16 @@
     "downloads",
     "tabs",
     "webNavigation",
-    "notifications"
+    "notifications",
+    "sidePanel",
+    "offscreen",
+    "alarms"
   ],
+  "host_permissions": ["<all_urls>"],
+  "side_panel": {
+    "default_path": "dashboard.html"
+  },
+  "options_page": "settings.html",
   "update_url": "https://clients2.google.com/service/update2/crx",
   "version": "1.0.1"
 }
