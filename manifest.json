@@ -13,9 +13,6 @@
     "extension_pages": "script-src 'self'; object-src 'self'"
   },
   "description": "Convert any webpage to Markdown format with a single click",
-  "externally_connectable": {
-    "ids": ["*"]
-  },
   "icons": {
     "128": "img/icon.png",
     "16": "img/icon.png",
@@ -29,6 +26,7 @@
     "scripting",
     "storage",
     "downloads",
+    "downloads.ui",
     "tabs",
     "webNavigation",
     "notifications",
